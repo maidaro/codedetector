@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C29C5E90DE087190085B971 /* PluginDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C29C5E80DE087190085B971 /* PluginDefines.m */; };
+		0C3C1D3C0DDF508700F5AFDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C1D3A0DDF508700F5AFDB /* Cocoa.framework */; };
+		0C3C1D3D0DDF508700F5AFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C1D3B0DDF508700F5AFDB /* Foundation.framework */; };
+		0C3C1D550DDF510F00F5AFDB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C1D530DDF510F00F5AFDB /* AppKit.framework */; };
+		0C3C1D560DDF510F00F5AFDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3C1D540DDF510F00F5AFDB /* CoreData.framework */; };
+		0C97AB5C0DEBD403007E2CE6 /* libuniversaldetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C97AB5B0DEBD3FE007E2CE6 /* libuniversaldetector.a */; };
+		0C97AB7E0DEBD657007E2CE6 /* TextEditorPlugin.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* TextEditorPlugin.bundle */; };
+		0CB156E00DEDE69F00F1D0FB /* AUTHOR.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CB156DF0DEDE69F00F1D0FB /* AUTHOR.txt */; };
+		0CB7CB6C0DDF97CF0081376E /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7CB6B0DDF97CF0081376E /* MyController.m */; };
+		0CB7CC2A0DDFA6260081376E /* MyDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB7CC290DDFA6260081376E /* MyDocumentController.m */; };
+		0CB7CC540DDFAC320081376E /* COPYING.LGPL in Resources */ = {isa = PBXBuildFile; fileRef = 0CB7CC530DDFAC320081376E /* COPYING.LGPL */; };
+		0CC4E27D0DDF09D9000E09C2 /* TextEditorPlugins.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E27C0DDF09D9000E09C2 /* TextEditorPlugins.m */; };
+		0CC4E5B30DDF22A1000E09C2 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E5B20DDF22A1000E09C2 /* Runtime.m */; };
+		0CC4E7060DDF3E22000E09C2 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E7050DDF3E22000E09C2 /* MyDocument.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C97AB560DEBD3FE007E2CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = UniversalDetector;
+		};
+		0C97AB580DEBD3FE007E2CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1B0DDCAB0A2D0AD10009B697;
+			remoteInfo = DetectorTest;
+		};
+		0C97AB5A0DEBD3FE007E2CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBF4F570BCD396800DA401A;
+			remoteInfo = universaldetector;
+		};
+		0CB156ED0DEDE6FD00F1D0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB156E60DEDE6FD00F1D0FB /* TextEdit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 415B218607BC0732009CEA53;
+			remoteInfo = TextEdit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C97AB7F0DEBD65B007E2CE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "~/Library/Application Support/SIMBL/Plugins";
+			dstPath = "~/Library/Application Support/SIMBL/Plugins";
+			dstSubfolderSpec = 0;
+			files = (
+				0C97AB7E0DEBD657007E2CE6 /* TextEditorPlugin.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C29C5740DE06C320085B971 /* PluginDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginDefines.h; sourceTree = "<group>"; };
+		0C29C5E80DE087190085B971 /* PluginDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginDefines.m; sourceTree = "<group>"; };
+		0C3C1D3A0DDF508700F5AFDB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0C3C1D3B0DDF508700F5AFDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C3C1D530DDF510F00F5AFDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C3C1D540DDF510F00F5AFDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalDetector.xcodeproj; path = UniversalDetector/UniversalDetector.xcodeproj; sourceTree = "<group>"; };
+		0CB156DF0DEDE69F00F1D0FB /* AUTHOR.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHOR.txt; sourceTree = "<group>"; };
+		0CB156E60DEDE6FD00F1D0FB /* TextEdit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TextEdit.xcodeproj; path = TextEdit/TextEdit.xcodeproj; sourceTree = "<group>"; };
+		0CB7CB6A0DDF97CF0081376E /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		0CB7CB6B0DDF97CF0081376E /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
+		0CB7CC280DDFA6260081376E /* MyDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocumentController.h; sourceTree = "<group>"; };
+		0CB7CC290DDFA6260081376E /* MyDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocumentController.m; sourceTree = "<group>"; };
+		0CB7CC530DDFAC320081376E /* COPYING.LGPL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LGPL; sourceTree = "<group>"; };
+		0CC4E27B0DDF09D9000E09C2 /* TextEditorPlugins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditorPlugins.h; sourceTree = "<group>"; };
+		0CC4E27C0DDF09D9000E09C2 /* TextEditorPlugins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEditorPlugins.m; sourceTree = "<group>"; };
+		0CC4E2A60DDF1015000E09C2 /* TextDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextDump.h; sourceTree = "<group>"; };
+		0CC4E5B10DDF22A1000E09C2 /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		0CC4E5B20DDF22A1000E09C2 /* Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		0CC4E7040DDF3E22000E09C2 /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		0CC4E7050DDF3E22000E09C2 /* MyDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* TextEditorPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEditorPlugin_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* TextEditorPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextEditorPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C97AB5C0DEBD403007E2CE6 /* libuniversaldetector.a in Frameworks */,
+				0C3C1D3C0DDF508700F5AFDB /* Cocoa.framework in Frameworks */,
+				0C3C1D3D0DDF508700F5AFDB /* Foundation.framework in Frameworks */,
+				0C3C1D550DDF510F00F5AFDB /* AppKit.framework in Frameworks */,
+				0C3C1D560DDF510F00F5AFDB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* TextEditorPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				0CB156DF0DEDE69F00F1D0FB /* AUTHOR.txt */,
+				0CB7CC530DDFAC320081376E /* COPYING.LGPL */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = TextEditorPlugin;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7CC280DDFA6260081376E /* MyDocumentController.h */,
+				0CB7CC290DDFA6260081376E /* MyDocumentController.m */,
+				0CC4E27B0DDF09D9000E09C2 /* TextEditorPlugins.h */,
+				0CC4E27C0DDF09D9000E09C2 /* TextEditorPlugins.m */,
+				0CC4E7040DDF3E22000E09C2 /* MyDocument.h */,
+				0CC4E7050DDF3E22000E09C2 /* MyDocument.m */,
+				0CB7CB6A0DDF97CF0081376E /* MyController.h */,
+				0CB7CB6B0DDF97CF0081376E /* MyController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0C97AB510DEBD3FD007E2CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C97AB570DEBD3FE007E2CE6 /* UniversalDetector.framework */,
+				0C97AB590DEBD3FE007E2CE6 /* DetectorTest */,
+				0C97AB5B0DEBD3FE007E2CE6 /* libuniversaldetector.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CB156E70DEDE6FD00F1D0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CB156EE0DEDE6FD00F1D0FB /* TextEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3C1D3A0DDF508700F5AFDB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3C1D530DDF510F00F5AFDB /* AppKit.framework */,
+				0C3C1D540DDF510F00F5AFDB /* CoreData.framework */,
+				0C3C1D3B0DDF508700F5AFDB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CB156E60DEDE6FD00F1D0FB /* TextEdit.xcodeproj */,
+				0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */,
+				8D5B49B6048680CD000E48DA /* TextEditorPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* TextEditorPlugin_Prefix.pch */,
+				0CC4E2A60DDF1015000E09C2 /* TextDump.h */,
+				0CC4E5B10DDF22A1000E09C2 /* Runtime.h */,
+				0CC4E5B20DDF22A1000E09C2 /* Runtime.m */,
+				0C29C5740DE06C320085B971 /* PluginDefines.h */,
+				0C29C5E80DE087190085B971 /* PluginDefines.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* TextEditorPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "TextEditorPlugin" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				0C97AB7F0DEBD65B007E2CE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextEditorPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = TextEditorPlugin;
+			productReference = 8D5B49B6048680CD000E48DA /* TextEditorPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "TextEditorPlugin" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* TextEditorPlugin */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0CB156E70DEDE6FD00F1D0FB /* Products */;
+					ProjectRef = 0CB156E60DEDE6FD00F1D0FB /* TextEdit.xcodeproj */;
+				},
+				{
+					ProductGroup = 0C97AB510DEBD3FD007E2CE6 /* Products */;
+					ProjectRef = 0C97AB500DEBD3FD007E2CE6 /* UniversalDetector.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* TextEditorPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0C97AB570DEBD3FE007E2CE6 /* UniversalDetector.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UniversalDetector.framework;
+			remoteRef = 0C97AB560DEBD3FE007E2CE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C97AB590DEBD3FE007E2CE6 /* DetectorTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DetectorTest;
+			remoteRef = 0C97AB580DEBD3FE007E2CE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0C97AB5B0DEBD3FE007E2CE6 /* libuniversaldetector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libuniversaldetector.a;
+			remoteRef = 0C97AB5A0DEBD3FE007E2CE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0CB156EE0DEDE6FD00F1D0FB /* TextEdit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TextEdit.app;
+			remoteRef = 0CB156ED0DEDE6FD00F1D0FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				0CB7CC540DDFAC320081376E /* COPYING.LGPL in Resources */,
+				0CB156E00DEDE69F00F1D0FB /* AUTHOR.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC4E27D0DDF09D9000E09C2 /* TextEditorPlugins.m in Sources */,
+				0CC4E5B30DDF22A1000E09C2 /* Runtime.m in Sources */,
+				0CC4E7060DDF3E22000E09C2 /* MyDocument.m in Sources */,
+				0CB7CB6C0DDF97CF0081376E /* MyController.m in Sources */,
+				0CB7CC2A0DDFA6260081376E /* MyDocumentController.m in Sources */,
+				0C29C5E90DE087190085B971 /* PluginDefines.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UniversalDetector/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TextEditorPlugin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_MODE_FLAG = "a-w,a+rX";
+				INSTALL_PATH = "\"~/Library/Application Support/SIMBL/Plugins\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-force_flat_namespace",
+				);
+				PRODUCT_NAME = TextEditorPlugin;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"",
+					"\"$(SRCROOT)/UniversalDetector/build/Release\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TextEditorPlugin_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_MODE_FLAG = "a-w,a+rX";
+				INSTALL_PATH = "\"~/Library/Application Support/SIMBL/Plugins\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+					"-force_flat_namespace",
+				);
+				PRODUCT_NAME = TextEditorPlugin;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "TextEditorPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "TextEditorPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
